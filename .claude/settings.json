@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm test)",
+      "Bash(npm ci)",
+      "Bash(npm install)",
+      "Bash(npm install *)",
+      "Bash(npm ls *)",
+      "Bash(npx eslint *)",
+      "Bash(npx stylelint *)",
+      "Bash(npx prettier *)",
+      "Bash(npx astro *)",
+      "Bash(uv run *)",
+      "Bash(node *)",
+      "Bash(git status)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git show *)",
+      "Bash(git branch *)",
+      "Bash(git add *)",
+      "Bash(git restore *)",
+      "Bash(git stash list)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(rg *)",
+      "Bash(wc *)",
+      "Bash(which *)",
+      "Bash(echo *)",
+      "mcp__playwright__navigate",
+      "mcp__playwright__screenshot",
+      "mcp__playwright__click",
+      "mcp__playwright__get_text",
+      "mcp__playwright__set_theme",
+      "mcp__playwright__set_viewport",
+      "mcp__playwright__close"
+    ],
+    "deny": [
+      "Bash(rm -rf /*)",
+      "Bash(git push --force *)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "playwright"
+  ]
+}

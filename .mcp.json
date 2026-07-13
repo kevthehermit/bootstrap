@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--quiet",
+        "--script",
+        ".claude/mcp/playwright_server.py"
+      ]
+    }
+  }
+}
